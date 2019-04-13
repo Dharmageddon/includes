@@ -54,14 +54,15 @@ if ($page == '/crud/index.php') $title = 'Crud';
           <span class="ml-auto">
       		<button class="btn btn-danger btn-sm" onclick="window.location.href='../logout.php'">Logout</button>
       		</span>
+        
     		<?php } else { ?>
 
           <span class="ml-auto">
       		<button class="btn btn-primary btn-sm" onclick="window.location.href='../login.php'">Login</button>
       		</span>
-
+        
     		<?php } ?>
-
+        
       </div>
     </nav>
   </header>
